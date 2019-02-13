@@ -1,0 +1,76 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    border-radius: 1em;
+}
+
+body {
+    background-color: darkgray;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#pantalla #juagadaJ1,
+#pantalla #juagadaJ2,
+#misImagenes2 div,
+#misImagenes div,
+#pantalla #vs,
+#pantalla,
+#letra {
+    display: inline-block;
+}
+
+#misImagenes,
+#misImagenes2 {
+    width: 200px;
+    height: 500px;
+    border: 3px solid red;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+}
+
+#misImagenes {
+    float: left;
+}
+
+#misImagenes2 {
+    float: right;
+}
+
+#pantalla {
+    height: 500;
+    width: 600px;
+    border: 3px solid red;
+    background-color: black;
+    color: white;
+}
+
+#pantalla #ganador {
+    margin-top: 2em;
+
+}
+
+.giro {
+    transform: rotate(360deg);
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+
+.ejeY {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition-duration: 0.5s;
+}
+
+#final,
+#reload {
+    font-size: 45px;
+}
+
+.clear {
+    clear: both;
+}
